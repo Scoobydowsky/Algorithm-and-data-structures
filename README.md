@@ -18,14 +18,14 @@ Task are wrote in Polish(PL) and English language
 > Obliczanie silni jest sztandarowym przykładem używania rekurencji: n!=n*(n‐1)! (nie wymagam wykonania rekurencyjnego).
 >
 >Przykład: 5!=5*4!=5*4*3!=5*4*3*2!=5*4*3*2*1!=5*4*3*2*1*0!=5*4*3*2*1*1=120
->3. Stwórz schemat blokowy, a później dokonaj implementacji algorytmu Euklidesa.
+>2. Stwórz schemat blokowy, a później dokonaj implementacji algorytmu Euklidesa.
 >Euklides opracował prosty i efektywny algorytm wyznaczania NWD (największy wspólny dzielnik).
 >
 >Dla danych dwóch liczb a i b polega on na odejmowaniu od większej mniejszej.
 > 
 >Gdy liczby są  równe otrzymamy NWD. max{a,b}:=max{a,b}‐min{a,b} gdzie max{a,b}, min{a,b} oznaczają  odpowiednio największy i najmniejszą liczbę ze zbioru {a,b}.
 >
->4. Stwórz schemat blokowy a później dokonaj implementacji ciągu Fibonacciego. 
+>3. Stwórz schemat blokowy a później dokonaj implementacji ciągu Fibonacciego. 
 >
 >Ciąg Fibonacciego wyraża się rekurencyjnym wzorem: f ( n)=f(n‐2)+f(n‐1), gdy f(1)=1 oraz f(2)=1.
 > 
