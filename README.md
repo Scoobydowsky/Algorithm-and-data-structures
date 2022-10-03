@@ -5,13 +5,13 @@ Task are wrote in Polish(PL) and English language
 
 # TASK 1
 **PL**
->Stwórz algorytm obliczania sumy kolejnych liczb całkowitych od a do b, gdzie a = 1 b = n.   a jest wartością z góry zdefiniowaną i wynosi 1. Wartość b jest wprowadzana przez użytkownika.
+>Stwórz program obliczania sumy kolejnych liczb całkowitych od a do b, gdzie a = 1 b = n.   a jest wartością z góry zdefiniowaną i wynosi 1. Wartość b jest wprowadzana przez użytkownika.
 
 **EN**
 
 # TASK 2
 **PL**
->1. Stwórz algorytm obliczania wartości silni.
+>1. Stwórz program obliczania wartości silni.
 >
 >Zaprojektuj schemat blokowy i zaimplementuj algorytm w jezyku C/C++. 
 > Silnia (n!) to iloczyn n kolejnych liczb naturalnych, przy czym dodatkowo zachodzi 0!=1.
@@ -115,8 +115,9 @@ Wartości są zapisane w kodzie, a nie wprowadzane przez użytkownika.
 **EN**
 # TASK 7
 **PL**
->Przedstaw na schemacie algorytm sortowania tablicy n elementowej jednowymiarowej. Sortowanie wykonaj metodą porównania dwóch sąsiednich elementów aż do osiągniecia efektu porządku rosnącego.
-Wykonaj implementację schematów w języku c/c++
-> 
+>Posortuj tablice 10 elementową 
 >Tablice 10 elementów zadeklaruj na sztywno w kodzie. Wartości: 10,7,13,88,55,28,8,20,7,55,
+
 **EN**
+>Sort 10 elements array
+>Declare array in code : 10,7,13,88,55,28,8,20,7,55
