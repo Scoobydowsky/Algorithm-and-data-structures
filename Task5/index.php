@@ -11,7 +11,9 @@ echo "Pierwszy element tablicy: ".PHP_EOL;
 echo PHP_EOL.$array[0].PHP_EOL;
 echo "Zawartosc tablicy: ".PHP_EOL;
 var_dump($array);
-$differce = $array[0] - $array[$arrayLenght-1];
+$firstArrayValue = $array[0];
+$lastArrayValue = $array[$arrayLenght -1];
+$differce = $firstArrayValue - $lastArrayValue;
 echo PHP_EOL.abs($differce).PHP_EOL;
 echo "Suma liczb: ".array_sum($array).PHP_EOL;
 
