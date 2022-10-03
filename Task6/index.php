@@ -8,3 +8,15 @@ echo "Data to where end searching".PHP_EOL;
 $firstDimetionEnd = readline("First dimention of array: ");
 $secondDimetionEnd = readline("Second dimention of array: ");
 $searched = readline("What are we searching?: ");
+
+if((5 > $firstDimetionStart) && (5 >$secondDimetionStart) && (0 < $firstDimetionStart) && (0 < $secondDimetionStart) && (5 > $firstDimetionEnd) && ($firstDimetionStart <= $firstDimetionEnd) && ($secondDimetionStart <= $secondDimetionEnd)){
+    for($i = $firstDimetionStart ; $i <= $firstDimetionEnd ; $i++){
+        for($j = $secondDimetionStart; $j <= $secondDimetionEnd ; $j++){
+            if($array[$i][$j] == $searched){
+                echo "Znaleziono wartość w tablicy[$i][$j] = ".$searched.PHP_EOL;
+            }
+        }
+    }
+}else{
+    echo "Podałeś złe wartości".PHP_EOL;
+}
